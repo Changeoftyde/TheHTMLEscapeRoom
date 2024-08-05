@@ -53,7 +53,7 @@
 
 <script>
 function test() {
-  if (document.getElementById("password").value == "Qxe6+52.520013.405004271791") {
+  if (document.getElementById("password").value == "Qxe6+52.520013.405004271791" || document.getElementById("password").value == "Qxe6+52.5200°13.4050°04271791" || document.getElementById("password").value == "Qxe6+52.5200N13.4050E04271791" || document.getElementById("password").value == "Qxe6+52.5200°N13.4050°E04271791") {
     window.location.href = "correct.html";
   } else {
     document.getElementById("message").src = "HTML - 4.png";
